@@ -1,0 +1,2624 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Michael</First><Last>Ratz</Last></Person>
+    <Email>michael.ratz@ki.se</Email>
+    <Laboratory>Frisén</Laboratory>
+    <Department>CMB</Department>
+    <Organization>Karolinska Institute</Organization>
+    <Address>
+      <Line>Solnavägen 9</Line>
+      <City>Solna</City>
+      <Postal-Code>171 65</Postal-Code>
+      <Country>Sweden</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Organization>GEO</Organization>
+    <Address>
+      <City></City>
+      <Country>USA</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Leonie</First><Last>von Berlin</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib4">
+    <Person><First>Ludvig</First><Last>Larsson</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib5">
+    <Person><First>Marcel</First><Last>Martin</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib6">
+    <Person><First>Jakub</First><Middle>O</Middle><Last>Westholm</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib7">
+    <Person><First>Gioele</First><Last>La Manno</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib8">
+    <Person><First>Joakim</First><Last>Lundeberg</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib9">
+    <Person><First>Jonas</First><Last>Frisén</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL16085">
+    <Status database="GEO">
+      <Submission-Date>2012-09-20</Submission-Date>
+      <Release-Date>2012-09-20</Release-Date>
+      <Last-Update-Date>2012-09-20</Last-Update-Date>
+    </Status>
+    <Title>Illumina MiSeq (Escherichia coli)</Title>
+    <Accession database="GEO">GPL16085</Accession>
+    <Technology>high-throughput sequencing</Technology>
+    <Distribution>virtual</Distribution>
+    <Organism taxid="562">Escherichia coli</Organism>
+    <Manufacturer></Manufacturer>
+    <Manufacture-Protocol>
+    </Manufacture-Protocol>
+    <Contact-Ref ref="contrib2" />
+  </Platform>
+
+  <Platform iid="GPL16417">
+    <Status database="GEO">
+      <Submission-Date>2012-12-20</Submission-Date>
+      <Release-Date>2012-12-20</Release-Date>
+      <Last-Update-Date>2019-01-27</Last-Update-Date>
+    </Status>
+    <Title>Illumina MiSeq (Mus musculus)</Title>
+    <Accession database="GEO">GPL16417</Accession>
+    <Technology>high-throughput sequencing</Technology>
+    <Distribution>virtual</Distribution>
+    <Organism taxid="10090">Mus musculus</Organism>
+    <Manufacturer></Manufacturer>
+    <Manufacture-Protocol>
+    </Manufacture-Protocol>
+    <Contact-Ref ref="contrib2" />
+  </Platform>
+
+  <Platform iid="GPL21626">
+    <Status database="GEO">
+      <Submission-Date>2016-03-22</Submission-Date>
+      <Release-Date>2016-03-22</Release-Date>
+      <Last-Update-Date>2019-01-15</Last-Update-Date>
+    </Status>
+    <Title>NextSeq 550 (Mus musculus)</Title>
+    <Accession database="GEO">GPL21626</Accession>
+    <Technology>high-throughput sequencing</Technology>
+    <Distribution>virtual</Distribution>
+    <Organism taxid="10090">Mus musculus</Organism>
+    <Manufacturer></Manufacturer>
+    <Manufacture-Protocol>
+    </Manufacture-Protocol>
+    <Contact-Ref ref="contrib2" />
+  </Platform>
+
+  <Platform iid="GPL24247">
+    <Status database="GEO">
+      <Submission-Date>2017-11-08</Submission-Date>
+      <Release-Date>2017-11-08</Release-Date>
+      <Last-Update-Date>2019-03-08</Last-Update-Date>
+    </Status>
+    <Title>Illumina NovaSeq 6000 (Mus musculus)</Title>
+    <Accession database="GEO">GPL24247</Accession>
+    <Technology>high-throughput sequencing</Technology>
+    <Distribution>virtual</Distribution>
+    <Organism taxid="10090">Mus musculus</Organism>
+    <Manufacturer></Manufacturer>
+    <Manufacture-Protocol>
+    </Manufacture-Protocol>
+    <Contact-Ref ref="contrib2" />
+  </Platform>
+
+  <Sample iid="GSM4644058">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain1_cx</Title>
+    <Accession database="GEO">GSM4644058</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+cortex
+      </Characteristics>
+      <Characteristics tag="age">
+P11
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+1
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v2
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644058/suppl/GSM4644058_10x39_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395085" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627774" />
+  </Sample>
+
+  <Sample iid="GSM4644059">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain1_hc</Title>
+    <Accession database="GEO">GSM4644059</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+hippocampus
+      </Characteristics>
+      <Characteristics tag="age">
+P11
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+1
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v2
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644059/suppl/GSM4644059_10x40_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395084" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627775" />
+  </Sample>
+
+  <Sample iid="GSM4644060">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain1_str</Title>
+    <Accession database="GEO">GSM4644060</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+striatum
+      </Characteristics>
+      <Characteristics tag="age">
+P11
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+1
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v2
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644060/suppl/GSM4644060_10x41_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395083" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627776" />
+  </Sample>
+
+  <Sample iid="GSM4644061">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain2_cx</Title>
+    <Accession database="GEO">GSM4644061</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+cortex
+      </Characteristics>
+      <Characteristics tag="age">
+P11
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+2
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v2
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644061/suppl/GSM4644061_10x42_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395082" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627777" />
+  </Sample>
+
+  <Sample iid="GSM4644062">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain2_hc</Title>
+    <Accession database="GEO">GSM4644062</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+hippocampus
+      </Characteristics>
+      <Characteristics tag="age">
+P11
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+2
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v2
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644062/suppl/GSM4644062_10x43_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395108" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627778" />
+  </Sample>
+
+  <Sample iid="GSM4644063">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain2_str</Title>
+    <Accession database="GEO">GSM4644063</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+striatum
+      </Characteristics>
+      <Characteristics tag="age">
+P11
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+2
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v2
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644063/suppl/GSM4644063_10x44_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395107" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627779" />
+  </Sample>
+
+  <Sample iid="GSM4644064">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain3_cx</Title>
+    <Accession database="GEO">GSM4644064</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+cortex
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+3
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644064/suppl/GSM4644064_10x52_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395106" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627780" />
+  </Sample>
+
+  <Sample iid="GSM4644065">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain3_str</Title>
+    <Accession database="GEO">GSM4644065</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+striatum
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+3
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644065/suppl/GSM4644065_10x53_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395105" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627781" />
+  </Sample>
+
+  <Sample iid="GSM4644066">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain3_hc</Title>
+    <Accession database="GEO">GSM4644066</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+hippocampus
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+3
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644066/suppl/GSM4644066_10x54_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395104" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627782" />
+  </Sample>
+
+  <Sample iid="GSM4644067">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain4_cx</Title>
+    <Accession database="GEO">GSM4644067</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+cortex
+      </Characteristics>
+      <Characteristics tag="age">
+P12
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+4
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644067/suppl/GSM4644067_10x65_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395103" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627783" />
+  </Sample>
+
+  <Sample iid="GSM4644068">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain4_hc</Title>
+    <Accession database="GEO">GSM4644068</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+hippocampus
+      </Characteristics>
+      <Characteristics tag="age">
+P12
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+4
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644068/suppl/GSM4644068_10x66_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395133" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627784" />
+  </Sample>
+
+  <Sample iid="GSM4644069">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain4_str</Title>
+    <Accession database="GEO">GSM4644069</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+striatum
+      </Characteristics>
+      <Characteristics tag="age">
+P12
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+4
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644069/suppl/GSM4644069_10x67_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395132" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627785" />
+  </Sample>
+
+  <Sample iid="GSM4644070">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain5_cx</Title>
+    <Accession database="GEO">GSM4644070</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+cortex
+      </Characteristics>
+      <Characteristics tag="age">
+P11
+      </Characteristics>
+      <Characteristics tag="treatment">
+control
+      </Characteristics>
+      <Characteristics tag="replicate">
+5
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644070/suppl/GSM4644070_10x55_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395131" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627786" />
+  </Sample>
+
+  <Sample iid="GSM4644071">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain5_str</Title>
+    <Accession database="GEO">GSM4644071</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+striatum
+      </Characteristics>
+      <Characteristics tag="age">
+P11
+      </Characteristics>
+      <Characteristics tag="treatment">
+control
+      </Characteristics>
+      <Characteristics tag="replicate">
+5
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644071/suppl/GSM4644071_10x57_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395130" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627787" />
+  </Sample>
+
+  <Sample iid="GSM4644072">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>brain5_hc</Title>
+    <Accession database="GEO">GSM4644072</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+hippocampus
+      </Characteristics>
+      <Characteristics tag="age">
+P11
+      </Characteristics>
+      <Characteristics tag="treatment">
+control
+      </Characteristics>
+      <Characteristics tag="replicate">
+5
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions.
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644072/suppl/GSM4644072_10x68_filtered_gene_bc_matrix.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395129" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627788" />
+  </Sample>
+
+  <Sample iid="GSM4644073">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_10X_65</Title>
+    <Accession database="GEO">GSM4644073</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+cortex
+      </Characteristics>
+      <Characteristics tag="age">
+P12
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+4
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample 10x65
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL16417" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina MiSeq</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395128" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627789" />
+  </Sample>
+
+  <Sample iid="GSM4644074">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_10X_66</Title>
+    <Accession database="GEO">GSM4644074</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+hippocampus
+      </Characteristics>
+      <Characteristics tag="age">
+P12
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+4
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample 10x66
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL16417" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina MiSeq</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395127" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627790" />
+  </Sample>
+
+  <Sample iid="GSM4644075">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_10X_67</Title>
+    <Accession database="GEO">GSM4644075</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+striatum
+      </Characteristics>
+      <Characteristics tag="age">
+P12
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+4
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample 10x67
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL16417" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina MiSeq</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395126" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627791" />
+  </Sample>
+
+  <Sample iid="GSM4644076">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_10X_52</Title>
+    <Accession database="GEO">GSM4644076</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+cortex
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+3
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample 10x52
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395125" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627792" />
+  </Sample>
+
+  <Sample iid="GSM4644077">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_10X_53</Title>
+    <Accession database="GEO">GSM4644077</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+striatum
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+3
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample 10x53
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395124" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627793" />
+  </Sample>
+
+  <Sample iid="GSM4644078">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_10X_54</Title>
+    <Accession database="GEO">GSM4644078</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain cells</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+hippocampus
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+3
+      </Characteristics>
+      <Characteristics tag="technology">
+Chromium Single Cell 3' v3
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample 10x54
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL24247" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina NovaSeq 6000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395123" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627794" />
+  </Sample>
+
+  <Sample iid="GSM4644079">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>section1</Title>
+    <Accession database="GEO">GSM4644079</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide and libraries prepared according to the manufacturer's instructions
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644079/suppl/GSM4644079_v9_filtered_gene_bc_matrix_spatial.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395122" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627795" />
+  </Sample>
+
+  <Sample iid="GSM4644080">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>section2</Title>
+    <Accession database="GEO">GSM4644080</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide and libraries prepared according to the manufacturer's instructions
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644080/suppl/GSM4644080_v10_filtered_gene_bc_matrix_spatial.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395121" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627796" />
+  </Sample>
+
+  <Sample iid="GSM4644081">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>section3</Title>
+    <Accession database="GEO">GSM4644081</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide and libraries prepared according to the manufacturer's instructions
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644081/suppl/GSM4644081_v11_filtered_gene_bc_matrix_spatial.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395120" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627797" />
+  </Sample>
+
+  <Sample iid="GSM4644082">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>section4</Title>
+    <Accession database="GEO">GSM4644082</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide and libraries prepared according to the manufacturer's instructions
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644082/suppl/GSM4644082_v12_filtered_gene_bc_matrix_spatial.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395119" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627798" />
+  </Sample>
+
+  <Sample iid="GSM4644083">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>section5</Title>
+    <Accession database="GEO">GSM4644083</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide, labelled using direct immunohistochemical staining and libraries prepared according to the manufacturer's instructions
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644083/suppl/GSM4644083_v13_filtered_gene_bc_matrix_spatial.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395118" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627799" />
+  </Sample>
+
+  <Sample iid="GSM4644084">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>section6</Title>
+    <Accession database="GEO">GSM4644084</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide, labelled using direct immunohistochemical staining and libraries prepared according to the manufacturer's instructions
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644084/suppl/GSM4644084_v14_filtered_gene_bc_matrix_spatial.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395117" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627800" />
+  </Sample>
+
+  <Sample iid="GSM4644085">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>section7</Title>
+    <Accession database="GEO">GSM4644085</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide, labelled using direct immunohistochemical staining and libraries prepared according to the manufacturer's instructions
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644085/suppl/GSM4644085_v15_filtered_gene_bc_matrix_spatial.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395116" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627801" />
+  </Sample>
+
+  <Sample iid="GSM4644086">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>section8</Title>
+    <Accession database="GEO">GSM4644086</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide, labelled using direct immunohistochemical staining and libraries prepared according to the manufacturer's instructions
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+gene expression library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644086/suppl/GSM4644086_v16_filtered_gene_bc_matrix_spatial.tar.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395115" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627802" />
+  </Sample>
+
+  <Sample iid="GSM4644087">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_V9</Title>
+    <Accession database="GEO">GSM4644087</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample V9
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395114" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627803" />
+  </Sample>
+
+  <Sample iid="GSM4644088">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_V10</Title>
+    <Accession database="GEO">GSM4644088</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample V10
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395113" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627804" />
+  </Sample>
+
+  <Sample iid="GSM4644089">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_V11</Title>
+    <Accession database="GEO">GSM4644089</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample V11
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395112" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627805" />
+  </Sample>
+
+  <Sample iid="GSM4644090">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_V12</Title>
+    <Accession database="GEO">GSM4644090</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample V12
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395111" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627806" />
+  </Sample>
+
+  <Sample iid="GSM4644091">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_V13</Title>
+    <Accession database="GEO">GSM4644091</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample V13
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395110" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627807" />
+  </Sample>
+
+  <Sample iid="GSM4644092">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_V14</Title>
+    <Accession database="GEO">GSM4644092</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample V14
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395109" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627808" />
+  </Sample>
+
+  <Sample iid="GSM4644093">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_V15</Title>
+    <Accession database="GEO">GSM4644093</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample V15
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395144" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627809" />
+  </Sample>
+
+  <Sample iid="GSM4644094">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneIDs_from_V16</Title>
+    <Accession database="GEO">GSM4644094</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>brain section</Source>
+      <Organism taxid="10090">Mus musculus</Organism>
+      <Characteristics tag="region">
+Bregma AP -1.65 mm
+      </Characteristics>
+      <Characteristics tag="age">
+P14
+      </Characteristics>
+      <Characteristics tag="treatment">
+barcoded
+      </Characteristics>
+      <Characteristics tag="replicate">
+6
+      </Characteristics>
+      <Characteristics tag="technology">
+Visium Spatial Transcriptomics
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>polyA RNA</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs on full length cDNA obtained from sample V16
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL21626" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>NextSeq 550</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="unknown">
+NONE
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395143" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627810" />
+  </Sample>
+
+  <Sample iid="GSM4644095">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2020-06-30</Last-Update-Date>
+    </Status>
+    <Title>cloneID plasmid library</Title>
+    <Accession database="GEO">GSM4644095</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>lentiviral transfer plasmid</Source>
+      <Organism taxid="562">Escherichia coli</Organism>
+      <Characteristics tag="sample type">
+lentiviral transfer plasmid
+      </Characteristics>
+      <Treatment-Protocol>
+barcoding of progenitor cells was achieved via in utero microinjection
+      </Treatment-Protocol>
+      <Growth-Protocol>
+mice were kept in standard housing conditions
+      </Growth-Protocol>
+      <Molecule>other</Molecule>
+      <Extract-Protocol>
+Targeted PCR for enrichment of cloneIDs from lentiviral cloneID plasmid library
+Chromium: Brains were dissected and single cell dissociations prepared using the Papain dissociation system with manual trituration. Purified single cell suspensions were processed according to the manufacturer's instructions. Visium: Brains were fresh frozen, 10 µm cryosections mounted and fixed on a Visium glass slide +/- immunostaining and libraries prepared according to the manufacturer's instructions. Amplicon: full length cDNA obtained during Chromium or Visium library preparation.
+10X Genomics Chromium Single Cell 3' v2 and v3; 10X Visium Spatial Gene Expression; Nested PCR
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+amplicon library
+    </Description>
+    <Data-Processing>
+Chromium: Sequencing reads were processed with Cell Ranger v2.2.0 (Chromium v2) or Cell Ranger v3.0.1 (Chromium v3); Visium: Sequencing reads were processed with Space Ranger 1.0.0
+Genome_build: mm10 with additional sequence representing the H2B-EGFP-N transgene
+Supplementary_files_format_and_content: Chromium: filtered gene count matrix; Visium: filtered gene count matrix, aligned images, spot coordinates
+    </Data-Processing>
+    <Platform-Ref ref="GPL16085" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>genomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina MiSeq</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TSV">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4644nnn/GSM4644095/suppl/GSM4644095_cloneIDs_AmpUMI.tsv.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15395142" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX8627811" />
+  </Sample>
+
+  <Series iid="GSE153424">
+    <Status database="GEO">
+      <Submission-Date>2020-06-28</Submission-Date>
+      <Release-Date>2020-06-29</Release-Date>
+      <Last-Update-Date>2021-04-08</Last-Update-Date>
+    </Status>
+    <Title>Cell types and clonal relations in the mouse brain revealed by single-cell and spatial transcriptomics </Title>
+    <Accession database="GEO">GSE153424</Accession>
+    <Summary>
+We report TREX for simultaneous lineage tracking and expression profiling of dissociated cells from the juvenile mouse brain using single cell transcriptomics. We also developed Space-TREX enabling tracking and transcriptome profiling in intact tissue sections via Spatial Transcriptomics.
+    </Summary>
+    <Overall-Design>
+Lentiviral delivery of a transcribed barcode into neuroepithelial progenitor cells using in utero microinjection into the mouse forebrain at embryonic day 9.5 followed by RNA-seq analysis of barcoded cells at postnatal day 11-14.
+    </Overall-Design>
+    <Type>Expression profiling by high throughput sequencing</Type>
+    <Contributor-Ref ref="contrib1" position="1" />
+    <Contributor-Ref ref="contrib3" position="2" />
+    <Contributor-Ref ref="contrib4" position="3" />
+    <Contributor-Ref ref="contrib5" position="4" />
+    <Contributor-Ref ref="contrib6" position="5" />
+    <Contributor-Ref ref="contrib7" position="6" />
+    <Contributor-Ref ref="contrib8" position="7" />
+    <Contributor-Ref ref="contrib9" position="8" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM4644058" />
+    <Sample-Ref ref="GSM4644059" />
+    <Sample-Ref ref="GSM4644060" />
+    <Sample-Ref ref="GSM4644061" />
+    <Sample-Ref ref="GSM4644062" />
+    <Sample-Ref ref="GSM4644063" />
+    <Sample-Ref ref="GSM4644064" />
+    <Sample-Ref ref="GSM4644065" />
+    <Sample-Ref ref="GSM4644066" />
+    <Sample-Ref ref="GSM4644067" />
+    <Sample-Ref ref="GSM4644068" />
+    <Sample-Ref ref="GSM4644069" />
+    <Sample-Ref ref="GSM4644070" />
+    <Sample-Ref ref="GSM4644071" />
+    <Sample-Ref ref="GSM4644072" />
+    <Sample-Ref ref="GSM4644073" />
+    <Sample-Ref ref="GSM4644074" />
+    <Sample-Ref ref="GSM4644075" />
+    <Sample-Ref ref="GSM4644076" />
+    <Sample-Ref ref="GSM4644077" />
+    <Sample-Ref ref="GSM4644078" />
+    <Sample-Ref ref="GSM4644079" />
+    <Sample-Ref ref="GSM4644080" />
+    <Sample-Ref ref="GSM4644081" />
+    <Sample-Ref ref="GSM4644082" />
+    <Sample-Ref ref="GSM4644083" />
+    <Sample-Ref ref="GSM4644084" />
+    <Sample-Ref ref="GSM4644085" />
+    <Sample-Ref ref="GSM4644086" />
+    <Sample-Ref ref="GSM4644087" />
+    <Sample-Ref ref="GSM4644088" />
+    <Sample-Ref ref="GSM4644089" />
+    <Sample-Ref ref="GSM4644090" />
+    <Sample-Ref ref="GSM4644091" />
+    <Sample-Ref ref="GSM4644092" />
+    <Sample-Ref ref="GSM4644093" />
+    <Sample-Ref ref="GSM4644094" />
+    <Sample-Ref ref="GSM4644095" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153424/suppl/GSE153424_RAW.tar
+    </Supplementary-Data>
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA642635" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRP269087" />
+  </Series>
+
+</MINiML>
